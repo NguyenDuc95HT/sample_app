@@ -33,31 +33,54 @@ en:
   static_pages:
     home:
       title: "Home"
-      para1_html: "This is the home page for the %{href}"
-      para2: "sample application"
+      para1_html: "This is the home page for the %{href} sample application."
+      greeting: "Welcome to the Sample App"
+      signup: "Sign up now!"
+
     help:
       title: "Help"
       para1_html: "Get help on the Ruby on Rails Tutorial at the %{link}"
       para2_html: "To get help on this sample app, see the %{href}"
       help_page: "help page"
+
     about:
       title: "About"
       about_html: "The %{main_href} is a %{book_href} and %{main_href} to
         teach web development with %{main_href}. This is the sample application
         for the tutorial."
+
     contact:
       title: "Contact"
       para1_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}"
       contact_page: "contact page"
+
+  users:
+    new:
+      title: "Sign up"
+      para1_html: "This will be a signup page for new users."
+
+  sample_app: "sample app"
+  footer_html: "The %{main_href} by %{author_href}"
   book: "book"
   tutorial: "Ruby on Rails Tutorial"
+  author: "Michael Hartl"
   main_title: "Ruby on Rails Tutorial Sample App"
   screencast: "screencast series"
   log_in_message_html: "This is a text, with a %{href} inside."
   log_in_href: "link"
+  logo: "Rails logo"
+  news: "News"
+  about: "About"
+  home: "Home"
+  contact: "Contact"
+  help: "Help"
+  login: "Log in"
+
   url:
     main_page: "https://www.railstutorial.org/"
     help_page: "https://www.railstutorial.org/help"
     about_page: "https://www.railstutorial.org/about"
     contact_page: "https://www.railstutorial.org/contact"
     book_page: "https://www.railstutorial.org/book"
+    author_page: "http://www.michaelhartl.com/"
+    new_page: "http://news.railstutorial.org/"

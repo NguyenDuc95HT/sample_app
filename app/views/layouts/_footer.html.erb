@@ -1,0 +1,12 @@
+<footer class="footer">
+<small>
+  <%= t "footer_html", main_href: link_to(t("tutorial"), t("url.main_page")), author_href: link_to(t("author"), t("ulr.author")) %>
+</small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about"), about_path %></li>
+      <li><%= link_to t("Contact"), contact_path %></li>
+      <li><%= link_to t("news"), t("url.main_page") %></li>
+    </ul>
+  </nav>
+</footer>
