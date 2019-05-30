@@ -31,6 +31,7 @@
 
 en:
   about: "About"
+  account: "Account"
   author: "Michael Hartl"
   book: "book"
   contact: "Contact"
@@ -42,11 +43,21 @@ en:
   log_in_href: "link"
   logo: "Rails logo"
   login: "Log in"
+  logout: "Log out"
   main_title: "Ruby on Rails Tutorial Sample App"
   news: "News"
+  profile: "Profile"
   sample_app: "sample app"
   screencast: "screencast series"
+  settings: "Settings"
   tutorial: "Ruby on Rails Tutorial"
+  user: "Users"
+
+  sessions:
+    new:
+      title: "Log in"
+      signup: "Sign up now!"
+      para_hrml: "New user? "
 
   static_pages:
     home:
@@ -81,6 +92,7 @@ en:
 
   misc:
     user_not_exists: "User not exists!"
+    invalid_email_password: "Invalid email/password combination"
 
   url:
     main_page: "https://www.railstutorial.org/"
