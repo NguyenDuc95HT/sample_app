@@ -1,3 +1,5 @@
 NAME_MAXIMUM: 50
 EMAIL_MACIMUM: 255
 PASSWORD_MINIMUM: 6
+check_success: "1"
+check_fail: "0"
