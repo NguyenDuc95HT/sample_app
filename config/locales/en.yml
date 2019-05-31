@@ -94,6 +94,9 @@ en:
     user_not_exists: "User not exists!"
     invalid_email_password: "Invalid email/password combination"
 
+  spam:
+    remember_me: "Remember me on this computer"
+
   url:
     main_page: "https://www.railstutorial.org/"
     help_page: "https://www.railstutorial.org/help"
