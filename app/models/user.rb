@@ -10,7 +10,7 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: Settings.PASSWORD_MINIMUM}
+    length: {minimum: Settings.PASSWORD_MINIMUM}, allow_nil: true
 
   def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
