@@ -32,7 +32,8 @@
 en:
   about: "About"
   account: "Account"
-  account_activate: "! Click on the link below to activate your account:"
+  account_activate: "! Click on the link
+    below to activate your account:"
   account_activated: "Account activated"
   account_activation: "Account activation"
   account_inactivated: "Account inactivated. "
@@ -43,11 +44,13 @@ en:
   delete: "Delete"
   delete_failed: "Delete failed"
   email_greeting: "Hi %{name}"
+  forgot_password: "Forgot your password?"
   footer_html: "The %{main_href} by %{author_href}"
   greeting: "Welcome to the Sample App"
   help: "Help"
   home: "Home"
   invalid_activation_link: "Invalid activation link"
+  invalid_user: "Email address not found"
   log_in_message_html: "This is a text, with a %{href} inside."
   log_in_href: "link"
   logo: "Rails logo"
@@ -55,16 +58,38 @@ en:
   logout: "Log out"
   main_title: "Ruby on Rails Tutorial Sample App"
   news: "News"
+  password_empty: "can't be empty"
+  password_expired: "Password reset has expired."
+  password_reset: "Password reset"
+  password_reset_email_sent: "Email sent with password reset instructions"
   please_login: "Please log in."
   profile: "Profile"
   profile_updated: "Profile updated"
   sample_app: "Sample App"
   screencast: "screencast series"
   settings: "Settings"
+  something_wrong: "Something wrong. Updating failed"
   tutorial: "Ruby on Rails Tutorial"
   user: "Users"
   user_deleted: "User deleted"
   you_sure: "You sure?"
+
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+
+    edit:
+      title: "Reset password"
+      update_password: "Update password"
+      confirmation: "Confirmation"
+
+  user_mailer:
+    password_reset:
+      para1: "To reset your password click the link below:"
+      para2: "This link will expire in two hours."
+      para3: "If you did not request your password to be reset, please ignore
+        this email and your password will stay as it is."
 
   sessions:
     new:

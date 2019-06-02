@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.paginate page: params[:page], per_page: Settings.PER_PAGE
   end
 
-  def show; end
+  def show
+    redirect_to root_url && return unless @user.activated
+  end
 
   def new
     @user = User.new

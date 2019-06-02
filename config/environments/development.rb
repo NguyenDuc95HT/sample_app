@@ -42,7 +42,7 @@ Rails.application.configure do
     address: Settings.address,
     port: Settings.port,
     domain: Settings.domain,
-    user_name: ENV["GMAIL_USERNAME"] ,
+    user_name: ENV["GMAIL_USERNAME"],
     password: ENV["GMAIL_PASSWORD"],
     authentication: Settings.authentication,
     enable_starttls_auto: Settings.enable_auto
