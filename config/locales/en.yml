@@ -35,6 +35,8 @@ en:
   author: "Michael Hartl"
   book: "book"
   contact: "Contact"
+  delete: "Delete"
+  delete_failed: "Delete failed"
   footer_html: "The %{main_href} by %{author_href}"
   greeting: "Welcome to the Sample App"
   help: "Help"
@@ -46,12 +48,16 @@ en:
   logout: "Log out"
   main_title: "Ruby on Rails Tutorial Sample App"
   news: "News"
+  please_login: "Please log in."
   profile: "Profile"
+  profile_updated: "Profile updated"
   sample_app: "sample app"
   screencast: "screencast series"
   settings: "Settings"
   tutorial: "Ruby on Rails Tutorial"
   user: "Users"
+  user_deleted: "User deleted"
+  you_sure: "You sure?"
 
   sessions:
     new:
@@ -60,17 +66,6 @@ en:
       para_hrml: "New user? "
 
   static_pages:
-    home:
-      title: "Home"
-      para1_html: "This is the home page for the %{href} sample application."
-      signup: "Sign up now!"
-
-    help:
-      title: "Help"
-      para1_html: "Get help on the Ruby on Rails Tutorial at the %{link}"
-      para2_html: "To get help on this sample app, see the %{href}"
-      help_page: "help page"
-
     about:
       title: "About"
       about_html: "The %{main_href} is a %{book_href} and %{main_href} to
@@ -82,13 +77,35 @@ en:
       para1_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}"
       contact_page: "contact page"
 
+    help:
+      title: "Help"
+      para1_html: "Get help on the Ruby on Rails Tutorial at the %{link}"
+      para2_html: "To get help on this sample app, see the %{href}"
+      help_page: "help page"
+
+    home:
+      title: "Home"
+      para1_html: "This is the home page for the %{href} sample application."
+      signup: "Sign up now!"
+
   users:
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      save_changes: "Save changes"
+      change: "change"
+      confirmation: "Confirmation"
+
+    index:
+      title: "All users"
+
     new:
       title: "Sign up"
       create_account: "Create my account"
       confirmation: "Confirmation"
 
     show:
+
 
   misc:
     user_not_exists: "User not exists!"
