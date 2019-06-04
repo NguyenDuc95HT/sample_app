@@ -51,6 +51,9 @@ en:
     other: "%{count} errors"
 
   error_announce_html: "This form contains %{error_count}."
+  follow: "Follow"
+  followers: "followers"
+  following: "following"
   forgot_password: "Forgot your password?"
   footer_html: "The %{main_href} by %{author_href}"
   greeting: "Welcome to the Sample App"
@@ -90,6 +93,7 @@ en:
   settings: "Settings"
   something_wrong: "Something wrong. Updating failed"
   tutorial: "Ruby on Rails Tutorial"
+  unfollow: "Unfollow"
   user: "Users"
   user_deleted: "User deleted"
   you_sure: "You sure?"
