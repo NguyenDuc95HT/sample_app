@@ -9,7 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.descending.paginate(page: params[:page],
+    @microposts = @user.microposts.order_created.paginate(page: params[:page],
       per_page: Settings.index_per_page)
   end
 
@@ -44,8 +44,21 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
-  private
+  def following
+    @title = t "following"
+    @users = @user.following.paginate(page: params[:page],
+      per_page: Settings.index_per_page)
+    render :show_follow
+  end
 
+  def followers
+    @title = t "followers"
+    @users = @user.followers.paginate(page: params[:page],
+      per_page: Settings.index_per_page)
+    render :show_follow
+  end
+
+  private
   def user_params
     params.require(:user).permit :name, :email,
       :password, :password_confirmation
